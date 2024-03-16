@@ -7,38 +7,38 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div>
-                <a href="#" className="logo">
+                <a href="/" className="logo">
                     <img src="../images/logo.png" alt="Kabadi Techno Logo" />
                 </a>
 
                 <ul className={isOpen ? "navlist navlist_active" : "navlist"}>
                     <li>
-                        <a href="#" className="navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/about" className="navlink" onClick={() => setIsOpen(false)}>
                             ABOUT
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/join_us" className="navlink" onClick={() => setIsOpen(false)}>
                             JOIN US
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/sell" className="navlink" onClick={() => setIsOpen(false)}>
                             SELL
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/faq" className="navlink" onClick={() => setIsOpen(false)}>
                             FAQ
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/contact" className="navlink" onClick={() => setIsOpen(false)}>
                             CONTACT
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="navlink active_navlink" onClick={() => setIsOpen(false)}>
+                        <a href="/sign_in" className="navlink active_navlink" onClick={() => setIsOpen(false)}>
                             SIGN IN
                         </a>
                     </li>

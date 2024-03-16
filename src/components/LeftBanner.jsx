@@ -4,7 +4,7 @@ function LeftBanner() {
     return (
         <div className="banner">
             <h1>"Be a part of solution,<br />not a part of pollution."</h1>
-            <a href="#" className="banner_button">Sign Up</a>
+            <a href="/sign_up" className="banner_button">Sign Up</a>
         </div>
     );
 }
