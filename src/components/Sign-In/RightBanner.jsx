@@ -31,7 +31,7 @@ function RightBanner() {
                     />
                 </div>
 
-                <a className="forgot_password_link" href="/forget_password">
+                <a className="forgot_password_link" href="/">
                     Forgot Password?
                 </a>
 

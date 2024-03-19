@@ -1,9 +1,9 @@
 import React from "react";
 import LeftBanner from "./LeftBanner";
 import RightBanner from "./RightBanner";
-import "../styles/middle.css";
+import "../../css/SignIn.css";
 
-function Middle() {
+function SignIn() {
     return (
         <div className="auth_section">
             <LeftBanner />
@@ -12,4 +12,4 @@ function Middle() {
     );
 }
 
-export default Middle;
+export default SignIn;
